@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera",
+          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "name": "care-mate-mobile-app",
+    "slug": "care-mate-mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo-v2.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "icon": "./assets/images/logo-v2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "icon": "./assets/images/logo-v2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "icon": "./assets/images/logo-v2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "23fbbce2-2065-42c2-9093-b63804223507"
+      }
+    },
+    "owner": "karankumarr"
+  }
+}

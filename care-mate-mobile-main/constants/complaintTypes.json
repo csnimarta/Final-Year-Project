@@ -1,0 +1,49 @@
+{
+  "complaintTypes": [
+    {
+      "id": 1,
+      "title": "Connot contact Service Provider.",
+      "severity": 1
+    },
+    {
+      "id": 2,
+      "title": "Service provider did not show up on time.",
+      "severity": 2
+    },
+    {
+      "id": 3,
+      "title": "Service provider did not show up at all.",
+      "severity": 3
+    },
+    {
+      "id": 4,
+      "title": "Service provider was impolite.",
+      "severity": 2
+    },
+    {
+      "id": 5,
+      "title": "Service provider did a really bad job",
+      "severity": 1
+    },
+    {
+      "id": 6,
+      "title": "Service provider charged too much.",
+      "severity": 2
+    },
+    {
+      "id": 7,
+      "title": "Service provider was unhygienic.",
+      "severity": 1
+    },
+    {
+      "id": 8,
+      "title": "Service provider did not complete given task.",
+      "severity": 3
+    },
+    {
+      "id": 9,
+      "title": "Other",
+      "severity": 0
+    }
+  ]
+}
